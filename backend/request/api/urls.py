@@ -4,5 +4,5 @@ from backend.request.api.views import test_view
 app_name = 'backend.request.api'
 
 urlpatterns = [
-    path('/test/', test_view, name='test_api'),
+    path('test/', test_view, name='test_api'),
 ]
