@@ -1,0 +1,13 @@
+{% extends 'home/components/base.dj' %}
+{% block title %}Downloads{% endblock title %}
+{% block content %}
+<div class="container">
+    <h1>Downloads em construção</h1>
+    <p>Estamos trabalhando duro para trazer o melhor conteúdo para você. Volte mais tarde!</p>
+    <a href="/">Voltar para o início</a>
+
+    <footer>
+        <p>&copy; 2024. Ideilson Dev </p>
+    </footer>
+</div>
+{% endblock %}

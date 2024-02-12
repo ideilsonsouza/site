@@ -4,14 +4,14 @@ from django.views import View
 
 
 class DownloadsView(View):
-    template_name = 'home/downloads.html'
+    template_name = 'home/downloads.dj'
     
     def get(self, request):
         context = {}
         return render (request, self.template_name, context)
 
 class HomeView(View):
-    template_name = 'home/home.html'
+    template_name = 'home/home.dj'
 
     def get(self, request):
         context = {}
