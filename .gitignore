@@ -10,6 +10,7 @@ local_settings.py
 
 # Arquivos de migração Django
 /static/*
+/media/*
 
 # Arquivos de cache
 __pycache__/
