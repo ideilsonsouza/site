@@ -3,6 +3,7 @@
 sudo chown -R ideilson:www-data /var/www/site
 python3 -m venv /var/www/site/.venv
 source /var/www/site/.venv/bin/activate
+cp /var/www/site/.env.example /var/www/site/.env
 pip install setuptools
 pip install -r requirements.txt
 SECRET_KEY=$(python -c "from django.core.management.utils import get_random_string; print(get_random_string(50))")
