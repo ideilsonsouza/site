@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     #
     'backend.request.api.apps.ApiConfig',
     'backend.request.web.apps.WebConfig',
+    'backend.core.apps.CoreConfig',
+    'backend.system.apps.SystemConfig',
 ]
 
 MIDDLEWARE = [

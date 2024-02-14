@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.contrib.auth import get_permission_codename
 from django.contrib import messages
 from django.utils.translation import ngettext
-from .models import SystemCode
+from backend.core.models import SystemCode
 
 
 
