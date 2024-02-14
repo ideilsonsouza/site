@@ -49,4 +49,7 @@ class CoreAdmin(admin.ModelAdmin):
 
 @admin.register(SystemCode)
 class AdminSystemCode(CoreAdmin):
-    pass
+    readonly_fields = ['code', 'description', 'created_at']
+    fields = [
+        ( 'code', 'description', 'created_at')
+    ]
