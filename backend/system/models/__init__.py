@@ -1,1 +1,1 @@
-from . import *
+from backend.system.models.client import *
