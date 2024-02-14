@@ -26,6 +26,7 @@ django-reversion
 django-suit-ckeditor
 django-suit-redactor
 mysqlclient
+psycopg2-binary
 django-admin-interface
 gunicorn
 matplotlib
